@@ -7,16 +7,37 @@
 
 使用可视化的方式添加物料到应用中。
 
-## 用法
+## 功能
 
-![物料导入](https://img.alicdn.com/tfs/TB1GD1Wa9R26e4jSZFEXXbwuXXa-1393-892.gif)
+### 激活
 
-1. 选择需要插入物料的位置
-2. 点击需要使用的区块或者组件，物料代码将自动添加到相应的位置中
+![使用示例](https://user-images.githubusercontent.com/56879942/87538941-a19a5f00-c6cf-11ea-92f2-b8ed100792fc.gif)
+
+1. 通过 `⇧⌘P` 或 `Ctrl+Shift+P` 快捷键唤醒命令面板
+2. 输入 `Iceworks:Import Material` 激活物料添加插件
+
+### 在页面中使用
+
+![使用示例](https://user-images.githubusercontent.com/56879942/87619860-ba4a5980-c74f-11ea-84c1-9ef69ef17b18.gif)
+
+1. 在资源面板中点击 src/pages/*/index.tsx 打开页面源码
+2. 激活物料添加面板
+3. 选择需要插入物料的代码位置
+4. 搜索区块，点击需要使用的区块，物料代码将自动添加到相应的位置中
+5. 搜索组件，点击需要使用的组件，物料代码将自动添加到相应的位置中
+
+### 在组件中使用
+
+![使用示例](https://user-images.githubusercontent.com/56879942/87619875-c2a29480-c74f-11ea-945e-788a32e65881.gif)
+
+1. 在资源面板中点击 src/components/*/index.tsx 打开页面源码
+2. 激活物料添加面板
+3. 选择需要插入物料的代码位置
+4. 搜索组件，点击需要使用的组件，物料代码将自动添加到相应的位置中
 
 ## 更多
 
-访问 [Iceworks Pack](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks) 了解更多 Iceworks 相关功能。
+访问 [Iceworks 套件](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks)获取更多功能。
 
 ## License
 
