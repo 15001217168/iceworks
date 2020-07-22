@@ -74,15 +74,6 @@ Use the VS Code to develop the extension project, and enable extension debugging
   - If you are resolving a special issue, add `(fix #xxxx[,#xxx])` (#xxxx is the issue id) in your PR title for a better release log, e.g. `update entities encoding/decoding (fix #3899)`.
   - Provide detailed description of the bug in the PR. Live demo preferred.
   - Add appropriate test coverage if applicable.
-- Auto Publish
-  - Add "publisher": "iceworks-team" into your extension package.json:
-    ```json
-    {
-      "publisher": "iceworks-team"
-    }
-    ```
-  - When your PR has been merged into `master`, changed packages and VS Code Extensions will be auto published.
-  - When your PR has been merged into `release/*`, changed packages will be auto publish its beta version.
 
 ## Issue Reporting Guidelines
 
@@ -100,3 +91,7 @@ Use the VS Code to develop the extension project, and enable extension debugging
 - We will check your commit message, if it does not conform to the specification, the commit will be automatically refused, make sure you have read the specification above.
 - You could use `git cz` with a CLI interface to replace `git commit` command, it will help you to build a proper commit-message, see [commitizen](https://github.com/commitizen/cz-cli).
 - It's OK to have multiple small commits as you work on your branch - we will let GitHub automatically squash it before merging.
+
+## Document Guidelines
+
+_WIP_
